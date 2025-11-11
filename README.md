@@ -21,7 +21,7 @@ This approach demonstrates how image and textual cues can jointly enhance produc
 | Category         | Description                         | Source                                                                                                                   | Approx. Images |
 | ---------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------- |
 | Damaged Plates   | Plates with visible cracks or chips | [Broken Plates – Roboflow Universe](https://universe.roboflow.com/asoiu-x4iyw/broken-plates/dataset/1)                   | ~250           |
-| Undamaged Plates | Clean and intact plates             | [Sushi Mentai Plates – Roboflow Universe](https://universe.roboflow.com/sushi-mentai-plate/sushi-mentai-plate/dataset/2) | ~50            |
+| Undamaged Plates | Clean and intact plates             | [Sushi Mentai Plates – Roboflow Universe](https://universe.roboflow.com/sushi-mentai-plate/sushi-mentai-plate/dataset/2) | ~250            |
 
 **Preprocessing:**
 
@@ -35,8 +35,8 @@ This approach demonstrates how image and textual cues can jointly enhance produc
 
 | File                         | Description              | Label        | Samples |
 | ---------------------------- | ------------------------ | ------------ | ------- |
-| `positive_plate_reviews.csv` | Positive product reviews | 1 (Positive) | ~300    |
-| `negative_plate_reviews.csv` | Negative product reviews | 0 (Negative) | ~300    |
+| `plate_reviews_10000.csv`    | Positive product reviews | 1 (Positive) | ~5000    |
+|                              | Negative product reviews | 0 (Negative) | ~5000    |
 
 **Preprocessing:**
 
